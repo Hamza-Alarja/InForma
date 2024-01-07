@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/InForma/static/css/main.e483f76b.css",
+    "main.js": "/InForma/static/js/main.80a7066f.js",
+    "static/media/feedbacks.jpeg": "/InForma/static/media/feedbacks.03516708cdc7e6eaf136.jpeg",
+    "static/media/plans-pricing-section-cover-md.png": "/InForma/static/media/plans-pricing-section-cover-md.1db011433e377e357590.png",
+    "static/media/fa-solid-900.ttf": "/InForma/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/transformations-section-cover.png": "/InForma/static/media/transformations-section-cover.4e55f6b0c566a455f3f6.png",
+    "static/media/contact-us-cover.png": "/InForma/static/media/contact-us-cover.81d6767e0b73468c5bb8.png",
+    "static/media/fa-brands-400.ttf": "/InForma/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/InForma/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/pricing-section-3.jpeg": "/InForma/static/media/pricing-section-3.bd688ec2bb2037125e7e.jpeg",
+    "static/media/fa-brands-400.woff2": "/InForma/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/pricing-section-2.jpeg": "/InForma/static/media/pricing-section-2.59727e1d0167739aa8e9.jpeg",
+    "static/media/plans-1.jpeg": "/InForma/static/media/plans-1.b40fb8ea6f77e845eb9a.jpeg",
+    "static/media/contact-us-section.jpeg": "/InForma/static/media/contact-us-section.ba963012b218ba821397.jpeg",
+    "static/media/fa-regular-400.ttf": "/InForma/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/story-section-1.jpeg": "/InForma/static/media/story-section-1.2b5fe40c96fa281cda4d.jpeg",
+    "static/media/fa-regular-400.woff2": "/InForma/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/InForma/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/InForma/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/InForma/index.html",
+    "main.e483f76b.css.map": "/InForma/static/css/main.e483f76b.css.map",
+    "main.80a7066f.js.map": "/InForma/static/js/main.80a7066f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e483f76b.css",
+    "static/js/main.80a7066f.js"
+  ]
+}
