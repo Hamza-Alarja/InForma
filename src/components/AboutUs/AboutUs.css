@@ -1,0 +1,13 @@
+/* For small screens, let the width be automatic */
+@media screen and (max-width: 1146px) {
+  iframe {
+    width: 90%;
+  }
+}
+
+/* For larger screens, set a fixed width of 513px */
+@media screen and (min-width: 768px) {
+  iframe {
+    width: 513px;
+  }
+}

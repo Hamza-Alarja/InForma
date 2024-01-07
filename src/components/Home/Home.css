@@ -1,0 +1,133 @@
+.home {
+  height: 100vh;
+  background-image: url(../Home/contact-us-section.jpeg);
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212b3695;
+  z-index: -1;
+}
+.home-text h1 {
+  color: white;
+  font-size: 60px !important;
+}
+.story {
+  padding: 20px;
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.story-img {
+  overflow: hidden;
+  border-radius: 20px;
+}
+.scaled-image {
+  width: 100%;
+  transition: transform 0.4s ease-in-out;
+}
+.story img:hover {
+  transform: scale(1.1);
+}
+.p-story {
+  width: 90%;
+  font-size: 14px !important;
+}
+
+.headlines {
+  font-size: 12px;
+}
+.Carousel {
+  background-color: rgba(219, 219, 219, 0.248);
+}
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" height%3D"1em" viewBox%3D"0 0 448 512"%3E%3Cpath d%3D"M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"%3E%3C%2Fpath%3E%3C%2Fsvg%3E ');
+}
+
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" height%3D"1em" viewBox%3D"0 0 448 512"%3E%3Cpath d%3D"M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"%3E%3C%2Fpath%3E%3C%2Fsvg%3E  ');
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: black !important;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+/* choices plans */
+
+.check {
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(176, 176, 88);
+}
+.pricing-section {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* img plan */
+
+/* contactUs */
+.contactUs {
+  padding: 100px !important;
+  background-image: url(./contact-us-section.jpeg);
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  z-index: 1;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.contactUs::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.808);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+.contactUs input {
+  background-color: transparent;
+}
+.contactUs input:focus {
+  background-color: transparent;
+}
+.contactUs textarea {
+  background-color: transparent;
+}
+.contactUs textarea:focus {
+  background-color: transparent;
+}
+/* questions */
+.questions {
+  background-color: #e6e5e5;
+}
+.questions span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.questions h3 {
+  font-size: 50px;
+}

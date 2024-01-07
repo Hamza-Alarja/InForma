@@ -1,0 +1,12 @@
+.footer {
+  font-weight: bold;
+  font-size: 13px !important;
+
+}
+.footer a {
+  color: black;
+}
+.footer p {
+  font-weight: 600;
+  width: 70%;
+}

@@ -1,0 +1,36 @@
+.PlansPricing {
+  position: relative;
+  background-image: url(./plans-pricing-section-cover-md.png);
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  z-index: 1;
+}
+
+.PlansPricing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212b3695;
+  z-index: -1;
+}
+.direction {
+  font-size: 12px;
+}
+.accordion {
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 70px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 70px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 70px 0px rgba(0, 0, 0, 0.75);
+}
+.accordion p {
+  font-size: 15px;
+}

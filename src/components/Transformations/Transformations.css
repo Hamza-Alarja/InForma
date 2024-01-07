@@ -1,0 +1,33 @@
+.Transformations {
+  position: relative;
+  background-image: url(./transformations-section-cover.png);
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  z-index: 1;
+}
+
+.Transformations::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212b3695;
+  z-index: -1;
+}
+.direction {
+  font-size: 12px;
+}
+.direction-p {
+  color: rgb(141, 141, 141);
+}
+.incoming img {
+  border-radius: 10px;
+}

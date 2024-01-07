@@ -1,0 +1,54 @@
+.modal {
+  z-index: 99999999999999;
+}
+.Register {
+  border-radius: 20px;
+  position: fixed;
+  right: 2%;
+  bottom: 10%;
+  z-index: 99999999;
+  background-color: rgb(179, 133, 46);
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+}
+.Register:hover {
+  background-color: rgb(135, 92, 14);
+  color: #fff;
+}
+.Register:focus {
+  background-color: rgb(135, 92, 14) !important;
+}
+form p {
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px;
+}
+form {
+  padding: 15px;
+}
+form label {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.input-container {
+  position: relative;
+}
+
+.input-container input {
+  padding-right: 40px; /* Adjust this value as needed */
+}
+
+.unit {
+  position: absolute;
+  right: 10px; /* Adjust this value as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Prevents interactions with the unit label */
+}
+input[type="radio"] {
+  background-color: rgb(147, 147, 0) !important;
+  color: red !important;
+  width: 20px;
+  height: 30px;
+}
